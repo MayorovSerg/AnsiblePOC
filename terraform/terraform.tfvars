@@ -7,7 +7,7 @@ virtual_machines = {
       disk         = 20 # Объём диска в ГБ
       disk_name    = "debian-1-disk" # Название диска
       template     = "fd801rku4j14mv7fs703" # ID образа ОС для использования
-      nat          = false
+      nat          = true
     },
     "vm-2" = {
       vm_name      = "nginx-server-2" # Имя ВМ
@@ -17,7 +17,7 @@ virtual_machines = {
       disk         = 20 # Объём диска в ГБ
       disk_name    = "debian-2-disk" # Название диска
       template     = "fd801rku4j14mv7fs703" # ID образа ОС для использования
-      nat          = false
+      nat          = true
     },
     "vm-lb" = {
       vm_name      = "load-balancer" # Имя ВМ
